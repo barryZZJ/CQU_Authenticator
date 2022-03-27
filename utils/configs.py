@@ -3,8 +3,8 @@ import re
 import requests as r
 from bs4 import BeautifulSoup
 
-from .encrypt import encryptAES
-from .timestamp import timestamp_ms
+from utils.encrypt import encryptAES
+from utils.timestamp import timestamp_ms
 
 
 class Config:
